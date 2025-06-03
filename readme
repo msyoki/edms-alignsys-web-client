@@ -1,0 +1,56 @@
+# 📁 EDMS: Alignsys Web Client
+
+This project is a fully functional **Electronic Document Management System (EDMS)** that replicates the capabilities of the M-Files Web and Desktop clients using the **M-Files API**. It provides a modern front-end interface for users to access, manage, and collaborate on documents just like they would in M-Files.
+
+## 🌟 Key Features
+
+- 🔍 Full document search and filtering
+- 📂 Browse vaults, views, and document metadata
+- 📝 Metadata editing and version control
+- 🧩 Workflow handling and assignment
+- 🗃️ Create, update, and delete objects (Documents, Assignments, etc.)
+- 👥 Support for users and user groups
+- 📤 Upload documents and manage files
+- 💬 Commenting and activity logs per document
+- 📚 Fully responsive front-end using **React** + **MUI** (Material UI)
+
+## 📸 Screenshots
+
+### 🧭 Dashboard
+![Dashboard](screenshots/dashboard.jpg)
+
+### 📤 Document Upload
+![Document Upload](screenshots/upload.jpg)
+![Document Upload](screenshots/doctypes.jpg)
+![Document Upload](screenshots/documentlist.jpg)
+
+### 🔐 Authentication / Login Page
+![Login Page](screenshots/login.jpg)
+
+### 🔐 VaultManagement / Select Authenticated Vault
+![Login Page](screenshots/vaults.jpg)
+
+### 📝 Metadata Editor — Create with Metadata
+![Metadata Editor](screenshots/metadata.jpg)
+
+### 📄 Office Document Preview (Word, Excel, PPT)
+![Office Preview](screenshots/preview.jpg)
+![Office Preview](screenshots/preview2.jpg)
+
+> 📷 To add your own images, place them in a `screenshots/` folder and update the links above.
+
+## 🚀 Tech Stack
+
+- **Frontend:** React, Material UI, Axios, React-PDF, React Router
+- **Backend:** M-Files REST API (via proxy or direct)
+- **Deployment:** Docker / Vite / Nginx (optional)
+
+## 🛠️ Installation & Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/msyoki/edms-alignsys-web-client.git
+   cd edms-alignsys-web-client
+
+
